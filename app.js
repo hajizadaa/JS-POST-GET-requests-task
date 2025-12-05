@@ -9,7 +9,7 @@ async function  GetUsers() {
 
     data.forEach(element => {
         userCard.innerHTML += `
-        <div>
+        <div style = "margin-bottom: 30px;">
             <p>Username: ${element.username}</p>
             <p>Age: ${element.age}</p>
             <p>Email: ${element.email}</p>
@@ -31,12 +31,11 @@ async function  GetPosts() {
 
     data.forEach(element => {
         postCard.innerHTML += `
-        <div>
+        <div style = "margin-bottom: 30px;">
             <p>Title: ${element.title}</p>
             <p>Description: ${element.description}</p>
             <p>Image: <img src = "${element.image}"> </img> </p>
         </div>
-        <hr>
         `
         });
     } 
