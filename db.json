@@ -15,5 +15,18 @@
       "password": "wqfoewifjioweq"
     }
   ],
-  "posts": []
+  "posts": [
+    {
+      "id": "254d",
+      "title": "Title",
+      "description": "its title",
+      "image": "https://picsum.photos/200/300"
+    },
+    {
+      "id": "9ca1",
+      "title": "walfmwelf",
+      "description": "weaflkweakfi",
+      "image": "https://picsum.photos/200/300"
+    }
+  ]
 }

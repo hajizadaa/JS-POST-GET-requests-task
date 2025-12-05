@@ -34,7 +34,7 @@ async function  GetPosts() {
         <div>
             <p>Title: ${element.title}</p>
             <p>Description: ${element.description}</p>
-            <p>Image: ${element.image}</p>
+            <p>Image: <img src = "${element.image}"> </img> </p>
         </div>
         <hr>
         `
